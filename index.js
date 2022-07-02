@@ -1,6 +1,0 @@
-// function add(a, b) {
-for (var i = 0; i < 5; i++) {
-  console.log(i);
-}
-  // console.log(add(4, 6))
-// }
