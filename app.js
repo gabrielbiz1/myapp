@@ -14,6 +14,11 @@ router.get('/', function (req, res) {
 });
 
 
+router.get('/login', function (req, res) {
+  res.sendFile(view + 'login.html');
+  //__dirname : It will resolve to your project folder.
+});
+
 //add the router
 app.use('/', router);
 

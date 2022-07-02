@@ -98,3 +98,18 @@
 // console.log(idadeFiltrada)
 
 
+
+// const axios = require('axios')
+// function pesquisarCep(cep) {
+//   axios.get("https://brasilapi.com.br/api/cep/v1/" + cep)
+//     .then(function (response) {
+//       console.log(response.data.state)
+//     })
+// }
+
+// for (let pessoa of pessoas) {
+//   pesquisarCep(pessoa.cep)
+
+// }
+
+
