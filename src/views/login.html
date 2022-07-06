@@ -1,94 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/html" href="/src/views/style.sass" />
+    <title>Formulário de Cadastro</title>
+    <!-- CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+
+    <!-- JavaScript -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./style.css" />
+   
   </head>
-
   <body>
-    <div class="container" style="margin: auto; text-align: center">
-      <form>
-        <div class="row" style="">
-          <div class="col" style="margin: auto; padding: 20px; width: 50px">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Password</label
-            >
-            <input
-              type="password"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Password"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <button type="button" class="btn btn-primary">Login</button>
-          </div>
-        </div>
-      </form>
-    </div>
-    <!-- <label for="email">Email</label>
-              <input type="email" id="email" />
-            <div >
-            <div class="row">
-                <div class="col">
-                     <label for="password">Senha</label>
-              <input type="password" id="senha" />
-                </div>
-            </div>
-            </div>
-            <div>
-             
-            </div>
-            <div class="button">
-              <button
-                style="
-                  background-color: rgb(26, 209, 193);
-                  font-size: 12px;
-                  font-family: 'DM sans';
-                  border-radius: 5px;
-                  border: 1px solid;
-                  margin: auto;
-                  box-shadow: none;
-                  padding: 5px 15px;
-                  color: white;
-                "
-                type="submit"
-              >
-                Login
-              </button>
-            </div>
-          
-        </div> -->
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"
-  ></script>
-</html>
+    <div class="container">
 
-<!-- JavaScript Bundle with Popper -->
+     
+      
+        <form action="#">
+          <div class="form-head">
+             <h1>Criar Conta</h1>
+        
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="text" class="form-label1">Nome completo</label>
+              <input
+                type="text" id="nome"
+                class="form-control"
+                placeholder="Digíte seu nome completo" id="name"
+                required
+              />
+            </div>
+
+          
+          </div>
+
+          <div class="col">
+            <label for="email" class="form-label"> Email</label>
+            <input
+              type="email" id="email"
+              class="form-control"
+              placeholder="Digíte seu email"
+              id="email"
+              required
+            />
+          </div>
+          <div class="row">
+              <div class="col">
+                <label for="tell" class="form-label">Telefone</label>
+                <input type="tell" class="form-control" id="tell" placeholder="(xx) xxxxx-xxxx" required>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col">
+              <label for="password" class="form-label">Senha</label>
+              <input
+                type="password"
+                name="Password"
+                class="form-control" placeholder="Digíte a senha"
+                id="password"
+                required
+              />
+            </div>
+
+            <div class="col">
+              <label for="password" class="form-label">Confirmar senha</label>
+              <input
+                type="password"
+                name="confirmpassword"
+                class="form-control" placeholder="Confirme a senha"
+                id="confirmpassword"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="form-button">Criar Conta</button>
+            </div>
+
+            
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

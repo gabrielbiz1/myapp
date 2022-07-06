@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #390552;
+}
+
+.container {
+    width: 400px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255, 0.95);
+    font-family: "Poppins", sans-serif;
+}
+
+.form-control {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 15px;
+    font-weight: bold;
+    border-color: inherit;
+    margin-bottom: 5px;
+    transition: all 0.4s ease;
+    outline: none;
+}
+
+.form-control:focus {
+    color: #8519b8;
+    background-color: #fff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none;
+}
+.form-label1 {
+    width: 100%;
+    font-size: 15px;
+    box-sizing: content-box;
+    padding: 5px;
+    padding-top: 55px;
+}
+.form-label {
+    width: 100%;
+    font-size: 15px;
+    box-sizing: content-box;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+button {
+    width: 100%;
+    height: 47px;
+    background-color: #8519b8;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #390552;
+}
